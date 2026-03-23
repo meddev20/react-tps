@@ -1,0 +1,51 @@
+.container {
+  flex: 1;
+  padding: 1.5rem;
+  background: #fdfdfd;
+  overflow-x: auto;
+}
+
+.empty {
+  color: #888;
+  text-align: center;
+  padding: 2rem;
+}
+
+.columns {
+  display: flex;
+  gap: 1.5rem;
+  height: 100%;
+}
+
+.column {
+  background: #ebedf0;
+  border-radius: 8px;
+  min-width: 280px;
+  max-width: 280px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.colTitle {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.tasks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.task {
+  background: white;
+  padding: 0.75rem;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  font-size: 0.9rem;
+}
